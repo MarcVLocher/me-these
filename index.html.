@@ -165,6 +165,15 @@
         </header>
 
         <main>
+            <div class="manifesto" style="margin-bottom: 60px; padding: 30px; background-color: rgba(62, 47, 36, 0.05); border-left: 4px solid var(--mokka);">
+                <p class="de" style="font-size: 16px; font-style: italic;">
+                    <strong>Der Diskurs.</strong> ME THESE verdichtet fundamentale Verschiebungen in Demografie, Gesellschaft und Ökonomie auf ihre essenzielle Konsequenz für institutionelle Immobilien-Portfolios. Diese Publikation ist kein Monolog. Sie ist der Auftakt zu einer strategischen Debatte unter C-Level-Entscheidern. Wir fordern Ihre Perspektive und Ihren Widerspruch: <a href="mailto:mail@morning-espresso.net" style="color: var(--mokka); font-weight: bold; text-decoration: none;">mail@morning-espresso.net</a>
+                </p>
+                <p class="fr" style="font-size: 16px; font-style: italic;">
+                    <strong>Le discours.</strong> ME THESE condense les changements fondamentaux de la démographie, de la société et de l'économie en leurs conséquences essentielles pour les portefeuilles immobiliers institutionnels. Cette publication n'est pas un monologue. Elle marque le début d'un débat stratégique entre décideurs de niveau C. Nous sollicitons votre perspective et votre contradiction : <a href="mailto:mail@morning-espresso.net" style="color: var(--mokka); font-weight: bold; text-decoration: none;">mail@morning-espresso.net</a>
+                </p>
+            </div>
+
             <article class="issue">
                 <div class="issue-meta">
                     <span class="de">AUSGABE 01 | MÄRZ 2026</span>
@@ -181,9 +190,11 @@
                     <span class="fr">La thèse : La démographie impose au secteur immobilier un changement de paradigme radical. Les villes suisses exigent sans compromis des micro-logements de moins de 20 mètres carrés. L'agglomération nécessite simultanément le retour à la maison intergénérationnelle. Le milieu se meurt.</span>
                 </p>
                 
-                <a href="assets/pdf/ME_THESE_Ausgabe_01.pdf" class="btn-download" target="_blank" rel="noopener">
-                    <span class="de">PDF Herunterladen</span>
-                    <span class="fr">Télécharger le PDF</span>
+                <a href="assets/pdf/ME_THESE_Ausgabe_01_DE.pdf" class="btn-download de" target="_blank" rel="noopener">
+                    PDF Herunterladen
+                </a>
+                <a href="assets/pdf/ME_THESE_Edition_01_FR.pdf" class="btn-download fr" target="_blank" rel="noopener">
+                    Télécharger le PDF
                 </a>
             </article>
 
