@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME THESE | Publikationen der Meleven AG</title>
+    <meta name="description" content="Strategische Thesen und Whitepaper für institutionelle Immobilien-Investoren.">
+    
+    <style>
+        /* Farbpalette & Variablen */
+        :root {
+            --sand: #F4F1EA;
+            --mokka: #3E2F24;
+            --mokka-hover: #5A4433;
+            --font-ui: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            --font-text: "Garamond", "Georgia", serif;
+        }
+
+        /* Basis-Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--sand);
+            color: var(--mokka);
+            font-family: var(--font-text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Sprach-Logik */
+        body.lang-fr .de { display: none !important; }
+        body.lang-de .fr { display: none !important; }
+
+        /* Typografie & Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--mokka);
+            padding: 40px 0 20px 0;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-family: var(--font-ui);
+        }
+
+        .brand-title {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .brand-subtitle {
+            font-size: 10px;
+            color: var(--mokka-hover);
+            margin-top: 4px;
+            text-transform: uppercase;
+        }
+
+        /* Sprachweiche */
+        .lang-switch {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .lang-switch button {
+            background: none;
+            border: none;
+            color: var(--mokka);
+            cursor: pointer;
+            font-weight: normal;
+            font-family: var(--font-ui);
+        }
+
+        .lang-switch button.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Publikations-Block */
+        .issue {
+            margin-bottom: 80px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid rgba(62, 47, 36, 0.2);
+        }
+
+        .issue:last-child {
+            border-bottom: none;
+        }
+
+        .issue-meta {
+            font-family: var(--font-ui);
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .issue h2 {
+            font-family: var(--font-ui);
+            font-size: 32px;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+        }
+
+        .issue p.teaser {
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 32px;
+        }
+
+        /* Call to Action */
+        .btn-download {
+            display: inline-block;
+            background-color: var(--mokka);
+            color: var(--sand);
+            font-family: var(--font-ui);
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 12px 24px;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-download:hover {
+            background-color: var(--mokka-hover);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 100px;
+            padding: 40px 0;
+            border-top: 2px solid var(--mokka);
+            font-family: var(--font-ui);
+            font-size: 10px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="lang-de">
+
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="brand-title">ME THESE</div>
+                <div class="brand-subtitle">Meleven AG</div>
+            </div>
+            <div class="lang-switch">
+                <button onclick="setLang('de')" id="btn-de" class="active">DE</button> | 
+                <button onclick="setLang('fr')" id="btn-fr">FR</button>
+            </div>
+        </header>
+
+        <main>
+            <article class="issue">
+                <div class="issue-meta">
+                    <span class="de">AUSGABE 01 | MÄRZ 2026</span>
+                    <span class="fr">ÉDITION 01 | MARS 2026</span>
+                </div>
+                
+                <h2>
+                    <span class="de">DIE URBANE ZELLE: DAS ENDE DER VIERZIMMERWOHNUNG IM ZENTRUM.</span>
+                    <span class="fr">LA CELLULE URBAINE : LA FIN DE L'APPARTEMENT DE QUATRE PIÈCES AU CENTRE.</span>
+                </h2>
+                
+                <p class="teaser">
+                    <span class="de">Die These: Die Demografie zwingt die Immobilienwirtschaft zu einem radikalen Paradigmenwechsel. Schweizer Städte verlangen kompromisslos nach Mikrowohnungen unter 20 Quadratmetern. Die Agglomeration erfordert zeitgleich die Rückkehr zum Mehrgenerationenhaus. Die Mitte stirbt.</span>
+                    <span class="fr">La thèse : La démographie impose au secteur immobilier un changement de paradigme radical. Les villes suisses exigent sans compromis des micro-logements de moins de 20 mètres carrés. L'agglomération nécessite simultanément le retour à la maison intergénérationnelle. Le milieu se meurt.</span>
+                </p>
+                
+                <a href="assets/pdf/ME_THESE_Ausgabe_01.pdf" class="btn-download" target="_blank" rel="noopener">
+                    <span class="de">PDF Herunterladen</span>
+                    <span class="fr">Télécharger le PDF</span>
+                </a>
+            </article>
+
+            </main>
+
+        <footer>
+            &copy; 2026 MELEVEN AG | <span class="de">Alle Rechte vorbehalten</span><span class="fr">Tous droits réservés</span>
+        </footer>
+    </div>
+
+    <script>
+        function setLang(lang) {
+            // Setze die Klasse auf dem Body-Tag
+            document.body.className = 'lang-' + lang;
+            
+            // Passe den HTML-Lang-Attribut für Suchmaschinen an
+            document.documentElement.lang = lang;
+            
+            // Aktiviere den richtigen Button
+            document.getElementById('btn-de').classList.remove('active');
+            document.getElementById('btn-fr').classList.remove('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
